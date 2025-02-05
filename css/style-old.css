@@ -5,6 +5,7 @@
 .main-sectiontwo {
   padding: 120px 0 120px;
 }
+
 .icon-main-sectiontwo {
   display: flex;
   align-items: center;
@@ -24,23 +25,12 @@
 .main-sectiontwo-item {
   width: calc((100% - 72px) / 4);
 }
-.main-sectiontwo-title {
-  margin-top: 8px;
-  margin-bottom: 8px;
+
 }
-.main-sectiontwo-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.main-sectiontwo-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-}
+
+
+
+
 .main-sectionthree {
   background-color: #f4f4fd;
 }

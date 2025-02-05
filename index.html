@@ -53,15 +53,15 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="images/icons.svg#icon-burger_menu"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-btn" type="button">
+          <button class="mobile-menu-btn" type="button" data-menu-close>
             <svg class="mobile-icon-close" width="8" height="8">
               <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
@@ -135,8 +135,8 @@
         </div>
       </section>
 
-      <!-- <section class="main-sectiontwo">
-        <div class="conteiner">
+      <section class="main-sectiontwo">
+        <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="main-sectiontwo-list">
             <li class="main-sectiontwo-item">
@@ -189,7 +189,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- <section class="main-sectionthree">
         <div class="conteiner">
           <h2 class="main-subject">Our Team</h2>
@@ -560,7 +560,7 @@
         </div>
       </div>
     </footer> -->
-    <!-- <div class="backdrop is-open">
+    <!-- <div class="backdrop">
       <div class="modal">
         <button class="button-close" type="button">
           <svg class="icon-close" width="8" height="8">
@@ -647,5 +647,7 @@
         </form>
       </div>
     </div> -->
+    <script src="./js/menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
