@@ -617,7 +617,6 @@ img {
 .main-sectionthree-icon {
   display: flex;
   justify-content: center;
-
   gap: 24px;
 }
 .main-sectionthree-elipse {
@@ -644,7 +643,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .main-sectionthree {
-    padding: 96px px;
+    padding: 96px 108px;
   }
   .main-sectionthree-item {
     width: calc((100% - 48px) / 2);
