@@ -1,82 +1,14 @@
 .footer {
   padding: 100px 0 100px 0;
 }
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.footer {
-  /* margin: 0 auto; */
-  background-color: #2e2f42;
-}
-.foother-conteiner {
+/* .foother-conteiner {
   display: flex;
   align-items: baseline;
-}
+} */
 
-.conteiner-foother-logo {
+/* .conteiner-foother-logo {
   margin-right: 120px;
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  min-width: 264px;
-}
-.footer-text-social {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  margin-bottom: 16px;
-}
-.footer-logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.footer-logo-span {
-  color: #f4f4fd;
-}
-
-.footer-icon {
-  fill: #f4f4fd;
-}
-.footer-list {
-  display: flex;
-  gap: 16px;
-}
-.footer-items {
-  width: 40px;
-  height: 40px;
-}
-.footer-social-link {
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: #4d5ae5;
-}
-.conteiner-social-media {
-  margin-right: 80px;
-}
-
-.footer-social-link:focus,
-.footer-social-link:hover {
-  background-color: #31d0aa;
-}
+} */
 
 /* 5 урок */
 
@@ -140,11 +72,6 @@
   font-weight: 500;
   gap: 16px;
 }
-
-/* .footer-icon.subs {
-  margin-left: 16px;
-  fill: #f4f4fd;
-} */
 
 .subscribe-form button:focus,
 .subscribe-form button:hover {
