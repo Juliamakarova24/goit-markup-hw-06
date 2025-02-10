@@ -750,15 +750,11 @@ img {
   padding: 96px 16px;
   background-color: #2e2f42;
 }
-/* .foother-conteiner {
-  display: flex;
-  align-items: baseline;
-} */
+
 .footer-logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   margin-bottom: 16px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -778,11 +774,9 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   min-width: 288px;
+  margin-bottom: 72px;
 }
 
-.container-social-media {
-  padding: 72px 56px;
-}
 .footer-text-social {
   display: flex;
   align-items: center;
@@ -799,6 +793,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 72px;
 }
 .footer-items {
   width: 40px;
@@ -863,7 +858,6 @@ img {
   border-radius: 4px;
 }
 .submit-btn {
-  width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -881,19 +875,57 @@ img {
   font-weight: 500;
   gap: 16px;
 }
-.div-submit-btn {
+
+.btn-subscribe {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (min-width: 768px) {
   .footer {
     padding: 96px 108px;
-    text-align: center;
   }
-  .foother-conteiner {
+  .footer-container {
     display: flex;
+    flex-wrap: wrap; /* Дозволяє елементам переноситися на новий ряд */
+    /* justify-content: space-between; Розподіл простору між елементами */
+    gap: 24px; /* Відступи між елементами */
   }
-  .footer-logo {
-  display: inline-block;
+
+  .container-footer-logo {
+    display: flex;
+    flex-direction: column; /* Елементи йдуть вертикально */
+    align-items: flex-start; /* Вирівнює всі елементи по лівому краю */
+    max-width: 264px;
+  }
+  .container-social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-text-subscribe {
+    display: flex;
+    flex-direction: column; /* Елементи йдуть вертикально */
+    align-items: flex-start;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .form-input {
+    margin-bottom: auto;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0 100px 0;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
 }
